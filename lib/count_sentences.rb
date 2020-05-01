@@ -7,7 +7,7 @@ class String
       return true
     elsif self.end_with?(".")
       return true
-    self.end_with?("?")
+    elsif self.end_with?("?")
       return true
     else
       return false
